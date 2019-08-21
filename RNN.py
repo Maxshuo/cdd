@@ -4,7 +4,7 @@ mnist = input_data.read_data_sets("MNIST_data",one_hot=True)
 
 batch_size = 100
 n_batch = mnist.train.num_examples//batch_size
-
+按时交付对于撒谎dliahnsdkakaka
 #// weight_variable()方法用于初始化权重，以便之后调用，这里用截断正太分布进行初始化，随机加入噪声。
 def weight_variable(shape):
     initial = tf.truncated_normal(shape, stddev=0.1)
