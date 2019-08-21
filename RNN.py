@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data",one_hot=True)
 
-batch_size = 50
+batch_size = 100
 n_batch = mnist.train.num_examples//batch_size
 
 #// weight_variable()方法用于初始化权重，以便之后调用，这里用截断正太分布进行初始化，随机加入噪声。
